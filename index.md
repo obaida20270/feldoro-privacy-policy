@@ -1,15 +1,4 @@
-<!--
-DRAFT for review by Obaida. Written 2026-11-15 from ADR-0014, ADR-0011 and the code of build 1.0.0+1.
-NOT legal advice. It must be checked by the pilot customer or a data protection adviser before it
-is published (ADR-0014). Open points are listed in the hand-over message of 2026-11-16.
 
-What this text covers: exactly what build 1.0.0+1 (closed test) does. The block marked
-"NOCH NICHT IN DIESER VERSION" describes planned features; leave it OUT of the published page until
-that feature ships, then move it into the main text and update the date.
-
-Form of address: Sie (this is the public page; ADR-0017).
-Publish at a public https URL and enter that URL in Play Console (app content, privacy policy).
--->
 
 # Datenschutzerklärung der App „Feldoro"
 
@@ -82,19 +71,4 @@ Wenn sich die App ändert, zum Beispiel durch neue Funktionen, wird diese Erklä
 
 ---
 
-<!--
-NOCH NICHT IN DIESER VERSION. Do not publish until the feature is built (ADR-0011, ADR-0014).
-Then move each paragraph into section 2 and update the date.
 
-Standortprüfung (ADR-0011, ADR-0014 driver text, formal here):
-"Bei jedem Scan oder jeder Erfassung per „Erledigt" wird einmal der Standort geprüft, nur solange die App geöffnet ist.
-Gespeichert wird nur das Ergebnis: der Abstand zum Objekt, die Genauigkeit, die GPS-Uhrzeit und ob ein Hinweis auf einen
-simulierten Standort vorlag. Koordinaten werden nicht gespeichert. Zwischen den Objekten wird nichts erfasst, und Ihre
-Route wird nicht aufgezeichnet."
-
-Fotos: "Sie können einer Erfassung ein Foto hinzufügen. Das Foto wird auf dem Server des Unternehmens gespeichert."
-
-Benachrichtigungen: "Für „Einsatz starten" und Zusatzaufträge nutzt die App Push-Benachrichtigungen. Dafür wird ein
-Dienst von Google (Firebase Cloud Messaging) genutzt und eine Geräte-Kennung übertragen." (Check: this adds a third
-party and a device ID; Data Safety changes too.)
--->
